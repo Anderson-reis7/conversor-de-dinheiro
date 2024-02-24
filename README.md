@@ -5,8 +5,11 @@ Este é um simples conversor de moedas que permite a conversão de valores em re
 Como usar
 
 Abra o arquivo index.html no seu navegador.
+
 Selecione a moeda desejada no campo de seleção.
+
 Insira o valor em reais que você deseja converter.
+
 Clique no botão "Converter".
 
 Valores Atuais
