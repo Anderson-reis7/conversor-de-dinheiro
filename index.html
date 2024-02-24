@@ -14,40 +14,46 @@
 </head>
 
 <body>
-  <main>
+  <img src="./assets/currency-mod.png" alt="" class="img-logo">
+  <main class="container-main">
     <div>
-      <label for="">
+      <label class="label-convert">
         Converter de:
-        <select name="" id="">
+        <select class="select-real">
           <option value="real">R$ Real Brsileiro</option>
         </select>
       </label>
-      <label for="">
+      <label class="label-currency">
         Converter para:
-        <select name="" id="">
+        <select class="select-currency">
           <option value="Dolar">Dolar</option>
           <option value="Euro">Euro</option>
           <option value="Libra">Libra</option>
           <option value="Bitcoin">BitCoin</option>
         </select>
       </label>
-      <label for="">
+      <label class="label-value">
         Valor:
         <input class="input-value" type="number" placeholder="R$ 10.000.00">
       </label>
     </div>
 
-    <button>Converter</button>
+    <button class="button-convert">Converter</button>
 
-    <div>
-      <img src="./assets/brasil.png" alt="">
-      <p>Real</p>
-      <p>R$ 0,00</p>
-    </div>
-    <div>
-      <img src="./assets/usa.png" alt="">
-      <p>Dolar</p>
-      <p>US$ 0.00</p>
+    <div class="container-currency-result">
+      <div>
+        <img src="./assets/brasil.png" alt="" class="img-brazil">
+        <p class="currency real">Real</p>
+        <p class="result result-real">R$ 0,00</p>
+      </div>
+
+      <img src="./assets/Vector-mod.png" alt="" class="img-arrow">
+
+      <div>
+        <img src="./assets/usa.png" alt="" class="img-usa">
+        <p class="currency dolar">Dolar</p>
+        <p class="result result-dolar">US$ 0.00</p>
+      </div>
     </div>
   </main>
 </body>
