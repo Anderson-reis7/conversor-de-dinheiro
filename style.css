@@ -17,19 +17,21 @@ input[type=number] {
 
 .img-logo {
   width: 200px;
-  margin: 15px auto;
-  display: block;
 }
 
 body {
   background: url("./assets/26381843066962.jpg") no-repeat center center fixed;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
 }
 
 .container-main {
   background: #f4f4f4;
   width: 370px;
-  margin: 0 auto;
   padding: 44px 24px 23px;
   border-radius: 15px;
 }
@@ -79,6 +81,9 @@ body {
   border-radius: 20px;
   padding: 12px;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
 }
 
 .img-brazil,
